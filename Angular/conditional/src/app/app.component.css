@@ -1,0 +1,23 @@
+section {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.red {
+  background-color: red;
+  height: 10em;
+  width: 10em;
+}
+
+.green {
+  background-color: green;
+  height: 10em;
+  width: 10em;
+}
+
+.displayNone{
+  display: none;
+}
+
