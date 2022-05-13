@@ -3,9 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `<style>
-    *{background: green;}
+    *{background: yellow;}
   </style>
   <section>
+    <link rel="stylesheet" href="../styles.css">
       <p class="red"></p>
       <p class="green"></p>
       <p class="red"></p>

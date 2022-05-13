@@ -4,13 +4,15 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-inline',
   templateUrl: './inline.component.html',
   styles: [
-  ]
+    `
+      p {
+        color: red;
+      }
+    `,
+  ],
 })
 export class InlineComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

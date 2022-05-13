@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterPreloader } from '@angular/router';
+// import { RouterPreloader } from '@angular/router';
 import { Role } from './Roles/roleMode';
 @Component({
   selector: 'app-root',
